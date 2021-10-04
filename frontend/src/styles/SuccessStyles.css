@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor-success {
+    display: flex;
+    flex-direction: column;
+    margin: 130px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+.informacion-post-compra {
+    margin-top: 20px;
+}
+
+.dudas-compra {
+    margin-top: 20px;
+}
+
+.volver-compra {
+    margin-top: 20px;
+}

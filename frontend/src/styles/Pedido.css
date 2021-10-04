@@ -1,0 +1,17 @@
+* {
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+}
+
+.contenedor-title {
+   margin-bottom: 10px;
+   padding-top: 15px;
+   text-align: center;
+}
+
+/* .contenedor-datalist {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+} */

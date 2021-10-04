@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contenedor-bienvenida {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.contenedor-informacion {
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+}
+
+.contenedor-clienten {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-no-cliente {
+    font-size: 20px;
+}
+
+.contenedor-clienteh {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-habitual {
+    font-size: 20px;
+}
+
+.texto-bienvenida {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contenedor-botones{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 35px auto;
+}
+
+.boton-instagram{
+    border-radius: 100%;
+    border: 3px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.boton-whatsapp{
+    border-radius: 100%;
+    border: 3px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.boton-informacion{
+    border-radius: 100%;
+    border: 3px solid black;
+    height: 150px;
+    width: 150px;
+}

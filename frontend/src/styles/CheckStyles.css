@@ -1,0 +1,47 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+.pre-requisitos {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   margin: 25px auto 5px auto;
+   padding: 20px 10px;
+}
+
+.lista-requisitos {
+   margin-bottom: 10px;
+   padding: 10px 30px;
+} 
+
+ul > li {
+   list-style-position: inside;
+}
+
+.checklist {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   margin: 10px;
+}
+
+.texto-tabla {
+   font-size: 15px;
+}
+
+th {
+   text-align: center;
+}
+
+.accion-btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px auto;
+   padding: 20px;
+   flex-direction: column;
+}

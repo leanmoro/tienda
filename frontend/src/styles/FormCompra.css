@@ -1,0 +1,26 @@
+* {
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+}
+
+.titulo-anuncio {
+   text-align: center;
+   margin: 15px;
+   padding: 10px;
+}
+
+.contenedor-form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.label-textarea {
+   font-size: 15px;
+}
+
+textarea {
+   min-height: 150px;
+   max-height: 200px;
+}

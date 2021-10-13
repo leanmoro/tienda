@@ -1,8 +1,8 @@
-const mongoose = require("mongoose");
-const { ObjectId } = mongoose.Schema;
+import { Schema, model } from "mongoose";
+const { ObjectId } = Schema;
 //const {appConfig}= require('../config')
 
-const itemPedidoSchema = mongoose.Schema(
+const itemPedidoSchema = Schema(
   {
     producto: { type: ObjectId, ref: "Producto" },
     cantidad: Number,
@@ -20,4 +20,4 @@ ProductSchema.methods.setImgUrl(filename) = function setImgUrl(){
     this.imgUrl = `${host}:${port}/public/${filename}`
 }*/
 
-module.exports = mongoose.model("itemsPedido", itemPedidoSchema);
+export default model("itemsPedido", itemPedidoSchema);

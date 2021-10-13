@@ -1,5 +1,5 @@
-const Pedido = require("../models/Pedido");
-const getOrderAmount = require('../data/getOrderAmount')
+const Pedido = require("../models/Order").default;
+const getOrderAmount = require("../data/getOrderAmount");
 
 //GET TODOS LOS PEDIDOS
 const getPedidos = async (req, res) => {
@@ -15,7 +15,7 @@ const getPedidos = async (req, res) => {
 const getItemsXPedidoId = async (req, res) => {
   try {
     const items = await Pedido.findById(
-      { _id: req.params.id }.populate('itemPedido')
+      { _id: req.params.id }.populate("itemPedido")
     );
     res.json(items);
   } catch (err) {
